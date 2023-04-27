@@ -1,23 +1,22 @@
-# streamlit-template
+# Streamlit Catboost Demo
 
-**Streamlit officially supports multipage**: [link to announcement](https://blog.streamlit.io/introducing-multipage-apps/)
+_Naver BoostCamp AI Tech 5th Product Serving #9 Mission_
 
-A streamlit app template.
+간단한 모델 프로토 타입 Streamlit으로 제작하기
 
-- Pages and utilities are structured.
-- Easily add new pages.
-- Bash script to run the dashboard.
-- Dockerfile to build a docker image.
+## Demo
 
+[Demo1](./docs/Catboost.png)
+[Demo2](./docs/Cold_start.png)
 
-## Dev
-
-1. Create an environment `conda create -n streamlit-template python=3.7 pip`
-2. Install requirements: `pip install -r app/requirements.txt`
-
+## Start
 
 Start the dasboard:
 
-- `cd app`
-- `streamlit run dashboard.py`
+- Download pretrained catboost model
 
+  - 파일을 원하시는 분들은 개별 연락 부탁드립니다.
+
+- `cd app`
+- `pip install -r requirements.txt`
+- `streamlit run dashboard.py`
