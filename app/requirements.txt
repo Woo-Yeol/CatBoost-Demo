@@ -1,5 +1,8 @@
 plotly-express==0.4.1
-streamlit==0.83.0
+streamlit==1.21.0
 pandas==1.2.5
+numpy==1.24.3
 python-dotenv>=0.5.1
 loguru==0.5.3
+protobuf~=3.19.0
+catboost==1.0.6
