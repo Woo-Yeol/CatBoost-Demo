@@ -1,13 +1,16 @@
 # Streamlit Catboost Demo
 
-_Naver BoostCamp AI Tech 5th Product Serving #9 Mission_
+Naver BoostCamp AI Tech 5th Product Serving #9 Mission
 
 간단한 모델 프로토 타입 Streamlit으로 제작하기
 
 ## Demo
 
-[Demo1](./docs/Catboost.png)
-[Demo2](./docs/Cold_start.png)
+### 정상적인 Inference
+![Demo1](./docs/Catboost.png)
+
+### Cold Start
+![Demo2](./docs/Cold_start.png)
 
 ## Start
 
