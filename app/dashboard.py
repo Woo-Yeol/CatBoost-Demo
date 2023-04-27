@@ -4,10 +4,10 @@ import os
 import numpy as np
 import pandas as pd
 import streamlit as st
-from loguru import logger
 
-from pages.about import About
-from pages.datatable import DataTable
+from page.about import About
+from page.datatable import DataTable
+from page.catboost import CatBoostPage
 from utils.sidebar import sidebar_caption
 
 # Config the whole app
@@ -19,7 +19,7 @@ st.set_page_config(
 )
 
 
-@st.cache()
+@st.cache_data()
 def fake_data():
     """some fake data"""
 
@@ -38,7 +38,8 @@ def main():
 
     PAGES = {
         "Table": DataTable,
-        "About": About
+        "About": About,
+        "CatBoost" : CatBoostPage,
     }
 
     # Select pages
